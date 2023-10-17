@@ -1,0 +1,44 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 2rem;
+    background: rgb(105, 181, 222);
+}
+
+.nav{
+    width: 100vw;
+    background: #071952;
+    display: flex;
+    justify-content: center;
+    color: #eee;
+    align-items: center;
+    height: 10rem;
+    font-size: 120%;
+    padding: 4rem;
+    text-transform: uppercase;
+}
+
+.list{
+    display: flex;
+    gap: 6rem;
+    list-style: none;
+}
+
+.nav > img{
+    height: 10vh;
+    position: absolute;
+    top: 1;
+    left: 2rem;
+}
+
+
+
